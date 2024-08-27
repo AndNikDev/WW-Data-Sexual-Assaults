@@ -1,5 +1,5 @@
 // Cargar el archivo JSON y generar gráficos
-fetch("../dataset/cleaned_data.json")
+fetch("/dataset/cleaned_data.json")
   .then((response) => response.json())
   .then((data) => {
     const categories = [
